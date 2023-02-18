@@ -1,0 +1,51 @@
+@media(min-width: 992px) {
+    .quote-input{
+        width: 50%;
+    }
+}
+
+body{
+    background-color: #14365d;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+#container{
+    padding: 20px;
+}
+
+#registration-form {
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#registration-form h4 {
+    text-align: center;
+    color: white;
+}
+  
+#registration-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: orange;
+}
+  
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="tel"],
+#registration-form select,
+#registration-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background: #14365d;
+    color: white;
+    border-radius: 5px;
+}
